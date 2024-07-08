@@ -1,0 +1,63 @@
+.review-container{
+    margin: 0 30px;
+}
+
+
+.review-container h3{
+    margin-left: 1.5em;
+    font-size: 30px;
+    font-weight:lighter;
+    margin-bottom: 1rem;
+}
+
+.s{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    width: 340px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.user{
+    background: linear-gradient(to right, #89fffd, #ef32d9);
+    padding: 35px 10px;
+}
+
+.user-reviews{
+    text-align: center;
+}
+
+.main-reviews .course-name, .review-dis, .reviews-star{
+    font-size: 17px ;
+    font-weight: lighter;
+    margin: 12px;
+}
+
+.all-reviews{
+    margin: 3rem 0;
+    text-align: center;
+}
+
+.all-reviews a{
+    text-decoration: none;
+    color: rgb(71, 71, 235);
+    font-weight: bolder;
+}
+
+@media (max-width: 1028px){
+    .s{
+        width: 260px;
+    }
+}
+@media (max-width: 768px){
+    .s{
+      
+    }
+}
+
+
+
+
+
+
+

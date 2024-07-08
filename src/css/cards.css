@@ -1,0 +1,156 @@
+.card-container{
+   margin: 0 50px;
+}
+.card-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 425px;
+    gap: 2em;
+    margin-left: 40px;
+}
+
+.couses{
+    background-color: #fff;
+    padding: 1.5em 2.5em ;
+   display: flex;
+   align-items: center;
+   gap: 4em;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 3px;
+}
+
+.couses p{
+    font-size: 20px;
+}
+
+.couses p span{
+    opacity: 0.6;
+}
+
+.couses a{
+    text-decoration: none;
+    color: rgb(86, 86, 214);
+}
+
+/* card2  start ########################################*/ 
+.card2{
+    margin: 10% 0;
+}
+
+.card2 h3{
+    margin-left: 2.7em;
+    font-size: 30px;
+    font-weight:lighter
+}
+
+.card-section2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.all-courses{
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    width: 265px;
+    height: 300px;
+}
+
+
+.course-name-react, .course-name-angular, .course-name-meanstack, .course-name-mernstack{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 25px;
+}
+.course-details{
+    padding: 15px 20px;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    cursor: pointer;
+}
+.reviews{
+    margin-left: 20px;
+}
+.reviews span{
+    font-style: italic;
+}
+
+
+.course-name-angular{
+    background: linear-gradient(to right, #fc6767, #ec008c);
+}
+.course-name-react{
+    background: linear-gradient(to left, #f2c94c, #f2994a);
+}
+.course-name-mernstack{
+    background: linear-gradient(to right, #89fffd, #ef32d9);
+}
+.course-name-meanstack{
+    background: linear-gradient(to right, #92fe9d, #00c9ff);
+}
+
+.card-section3{
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.all-courses-list{
+    width: 180px;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+@media (max-width: 1024px){
+    .card-items{
+        margin-right: 80px;
+    }
+    .couses{
+        padding: 1em 1.5em;
+        gap: 3em;
+    }
+}
+
+@media (max-width: 768px){
+    .card-items{
+        margin-left: 50px;
+        margin-left: -13px;
+    }
+    .couses{
+        padding: 1em 1.5em;
+        gap: 3em;
+    }
+    .couses p{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 425px){
+    .card-items{
+        flex-direction: column;
+        margin-top: 68px;
+        margin-left: 24px;
+    }
+    .couses p{
+        font-size: 22px;
+    }
+    .couses a{
+        font-size: 20px;
+    }
+    .card-section2{
+        margin-top: 345px;
+    }
+}
+

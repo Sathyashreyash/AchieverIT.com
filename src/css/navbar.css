@@ -1,0 +1,74 @@
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 3.5rem;
+}
+
+nav ul li{
+    font-size: 16px;
+    /* font-weight:bolder; */
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: orangered;
+    transition: 0.4s;
+}
+
+.hamburger-menu{
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+}
+
+@media (max-width: 1440px){
+    .hamburger-menu{
+        display: none;
+    }
+    /* .showMenu{
+        display: block;
+    }
+    .hideMenu{
+        display: none;
+    } */
+}
+
+@media (max-width: 1024px){
+    nav ul{
+        gap: 2rem;
+        margin-right: 42px;
+    }
+    
+    nav ul li{
+        font-size: 18px;
+    }
+}
+@media (max-width: 768px){
+   nav ul{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-left: 12px;
+        gap: 15px;
+        right: 230px;
+        margin-top: 82px;
+    }
+
+    .showMenu{
+        display: block;
+    }
+    .hideMenu{
+        display: none;
+    }
+    
+    .hamburger-menu{
+        display: flex;
+        justify-content: end;
+        position: absolute;
+        right: 10px;
+        top: 8px;
+        margin-right: 20;
+    }
+   
+}

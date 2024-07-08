@@ -1,0 +1,31 @@
+.contact-us-line{
+    margin: 3rem 0;
+    text-align: center;
+    background: linear-gradient(to left, #0052d4, #65c7f7);
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.contact-us-line h5{
+    font-size: 1.25rem;
+    color: #fff;
+    opacity: .9;
+}
+
+.contact-us-line button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1.15rem;
+    border: none;
+    list-style: none;
+    border-radius: 3px;
+    background: #fff;
+    
+}
+
+.contact-us-line button a{
+    text-decoration: none;
+    color:#0052d4;;
+    font-weight: lighter;
+    opacity: .9;
+}
